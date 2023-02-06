@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cornerRadius">13dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="btnHeight">50dp</dimen>
+</resources>

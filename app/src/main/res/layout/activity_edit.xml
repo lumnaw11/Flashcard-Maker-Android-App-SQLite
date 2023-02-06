@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/margin"
+    android:layout_marginRight="@dimen/margin"
+    android:orientation="vertical"
+    tools:context=".EditActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edtWord"
+            style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="Enter front card"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <EditText
+            android:id="@+id/edtDefinition"
+            style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter back card"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:text="Update"
+            app:cornerRadius="@dimen/cornerRadius" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Add card"
+            app:cornerRadius="@dimen/cornerRadius" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDeleteAll"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Delete All"
+            app:cornerRadius="@dimen/cornerRadius" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_weight="1"
+            android:text="@string/back"
+            app:cornerRadius="@dimen/cornerRadius" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtDeleteText"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Enter word to delete"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_weight="1"
+            android:text="Delete"
+            app:cornerRadius="@dimen/cornerRadius" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flashcard Maker</string>
+    <string name="startStr">Start</string>
+    <string name="addStr">Add cards</string>
+    <string name="btnAns">Show definition</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPrev">Prev</string>
+    <string name="back">Back</string>
+    <string name="btnFlip">Flip</string>
+</resources>
