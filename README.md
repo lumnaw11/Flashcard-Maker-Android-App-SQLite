@@ -16,7 +16,7 @@
 </ul>
 
 ## Demo 
-| Main | Start View | Add Card View |
+| Main | Start View | Add Cards View |
 |---------|---------|---------|
 | ![startscreen](https://user-images.githubusercontent.com/122884728/216902836-6b3f11aa-3d8a-495f-a729-3550de844cb7.png) | ![cardscreen](https://user-images.githubusercontent.com/122884728/216902863-ad0acd96-7712-41b9-bda5-d46dad68a4b3.png) |![AddCardScreen](https://user-images.githubusercontent.com/122884728/216902570-9e880a29-eaf3-4f2d-bb22-bb348ec76b30.png)|
 
