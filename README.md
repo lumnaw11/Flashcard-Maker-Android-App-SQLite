@@ -10,6 +10,11 @@
 <li>Add, update create, delete, or delete all cards</li>
 </ul>
 
+## Environment
+<ul>
+<li>Android SDK 32</li>
+</ul>
+
 ## Demo 
 | Main | Start View | Add Card View |
 |---------|---------|---------|
