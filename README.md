@@ -1,6 +1,6 @@
 # Flashcard-Maker-Android-App-SQLite
 <b>Simple Android Flashcard App Using SQLite</b>
-<p>I made this android app with Java and SQLite. If you have any suggestions, feel free to leave a comment!</p>
+<p>I made this android app with Java and SQLite. If you have any suggestions, feel free to contact me!</p>
 
 ## Features
 <ul>
