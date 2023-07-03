@@ -4,7 +4,7 @@
 JavaとSQLiteを採用して作った単語帳アプリです。
 </p>
 
-## Features
+## Features | 機能
 <ul>
 <li>View added flashcards. | 追加した単語をカード式での表示。</li>
 <li>Click to flip card. | カードをクリックして裏が表示します。</li>
